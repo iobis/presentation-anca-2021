@@ -1,6 +1,8 @@
 ---
+title: Introduction to OBIS
 output:
   revealjs::revealjs_presentation:
+    template: template.html
     fig_width: 6
     fig_height: 4
     center: true
@@ -8,7 +10,6 @@ output:
     css:
     - css/style.css
     - css/highlight.css
-    - css/popup.css
     theme: simple
     highlight: tango
     transition: none
@@ -30,10 +31,20 @@ ANCA-IOCARIBE
 Pieter Provoost  
 p.provoost@unesco.org
 
+https://iobis.github.io/presentation-anca-2021/
+
 <img class="logo" src="images/flanders.png">
 <img class="logo" src="images/ioc.png">
 <img class="logo" src="images/iode.png">
 <img class="logo" src="images/obis.png">
+
+---
+
+# Data flow
+
+---
+
+![schema](images/schema.png)
 
 --- 
 
@@ -141,9 +152,9 @@ Extensions: http://rs.gbif.org/extension
 
 Example extensions:
 
-- [ExtendedMeasurementOrFact](https://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml)
-- [DNADerivedData](https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml)
-- [Audubon Media Description](https://rs.gbif.org/extension/ac/audubon_2020_10_06.xml)
+[ExtendedMeasurementOrFact](https://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml) `r emo::ji("thermometer")`  
+[DNADerivedData](https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml) `r emo::ji("dna")`  
+[Audubon Media Description](https://rs.gbif.org/extension/ac/audubon_2020_10_06.xml) `r emo::ji("camera")`
 
 --- 
 
@@ -288,6 +299,12 @@ manual: https://github.com/gbif/ipt/wiki/IPT2ManualNotes.wiki
 
 ---
 
+http://ipt.iobis.org/hab/
+
+![ipt](images/ipt.png)
+
+---
+
 ### The HAB template
 
 https://github.com/iobis/hab-template
@@ -307,6 +324,20 @@ https://github.com/iobis/hab-template
 ---
 
 # Data access
+
+---
+
+### Mapper and downloads
+
+https://mapper.obis.org/
+
+### R package
+
+https://github.com/iobis/robis/
+
+### API
+
+https://api.obis.org/
 
 ---
 
