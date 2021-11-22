@@ -1,5 +1,5 @@
 ---
-title: Introduction to OBIS
+title: Submitting HAB occurrence data to OBIS
 output:
   revealjs::revealjs_presentation:
     template: template.html
@@ -24,7 +24,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Introduction to OBIS { #titleslide }
+# Submitting HAB occurrence<br/>data to OBIS { #titleslide }
 
 HAIS-HAEDAT TRAINING COURSE  
 ANCA-IOCARIBE  
