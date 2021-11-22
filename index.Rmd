@@ -20,6 +20,8 @@ output:
       controls: false
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, encoding = encoding, output_dir = "docs") })  
+editor_options: 
+  chunk_output_type: console
 ---
 
 # Introduction to OBIS { #titleslide }
@@ -289,6 +291,16 @@ Example extensions:
 
 ![schema](images/schema.png)
 
+---
+
+## HAB OBIS data publishing in practice
+
+<br/>
+
+1. Enter occurrence data in the Excel template `r emo::ji("arrow_right")` data provider
+2. Enter dataset metadata in IPT `r emo::ji("arrow_right")` data provider or node manager
+3. Conversion from Excel to Darwin core data files and upload into IPT `r emo::ji("arrow_right")` node manager
+
 --- 
 
 ## IPT
@@ -301,7 +313,23 @@ manual: https://github.com/gbif/ipt/wiki/IPT2ManualNotes.wiki
 
 http://ipt.iobis.org/hab/
 
-![ipt](images/ipt.png)
+![ipt](images/ipt_1.png)
+
+---
+
+![ipt](images/ipt_2.png)
+
+---
+
+![ipt](images/ipt_3.png)
+
+---
+
+![ipt](images/ipt_4.png)
+
+---
+
+![ipt](images/ipt_5.png)
 
 ---
 
